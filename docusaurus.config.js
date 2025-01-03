@@ -13,17 +13,19 @@ const config = {
   title: 'MontreCode',
   tagline: 'Reference di pseudocodice',
   favicon: 'img/favicon.ico',
-
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/montrecode/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'DavideDaCol', // Usually your GitHub org/user name.
   projectName: 'montrecode', // Usually your repo name.
+
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
