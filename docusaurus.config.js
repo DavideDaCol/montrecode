@@ -92,10 +92,6 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Reference',
-                to: 'introduzione/intro',
-              },
-              {
                 label: 'Materiale del corso',
                 to: 'https://cricca.disi.unitn.it/montresor/teaching/asd/materiale/lucidi/'
               }
