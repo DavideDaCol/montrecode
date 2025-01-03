@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'MontreCode',
+  tagline: 'Reference di pseudocodice',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -22,8 +22,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'DavideDaCol', // Usually your GitHub org/user name.
+  projectName: 'montrecode', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -76,9 +76,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'MontreCode',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -86,9 +86,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Reference',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://cricca.disi.unitn.it/montresor/teaching/asd/materiale/lucidi/', label: 'Materiale', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -103,13 +103,17 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Reference',
+                to: '/docs/introduzione/intro',
               },
+              {
+                label: 'Materiale del corso',
+                to: 'https://cricca.disi.unitn.it/montresor/teaching/asd/materiale/lucidi/'
+              }
             ],
           },
           {
-            title: 'Community',
+            title: 'Docusaurus Community',
             items: [
               {
                 label: 'Stack Overflow',
@@ -129,17 +133,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/DavideDaCol',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Davide Da Col. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
