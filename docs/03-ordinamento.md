@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Sorting
 
 Il problema dell'ordinamento parte da una sequenza di n valori e produce come output una nuova sequenza degli stessi valori, tale che **ogni valore sia minore o uguale al successivo**.
@@ -16,7 +20,7 @@ for i = 1 to n − 1 do
     A[i] <=> A[min]
 ```
 
-L'algoritmo ha complessità O(n^2), in quanto cercare il minimo ha costo lineare e va fatto per ogni elemento dell'array. L'implementazione della funzione min si trova negli [algoritmi elementari](./elementari.md#minimo).
+L'algoritmo ha complessità O(n^2), in quanto cercare il minimo ha costo lineare e va fatto per ogni elemento dell'array. L'implementazione della funzione min si trova negli [algoritmi elementari](./02-elementari.md#minimo).
 
 ## Insertion sort
 

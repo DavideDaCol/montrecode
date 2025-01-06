@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Algoritmi elementari
 Questa pagina riporta alcuni algoritmi relativamente semplici che vengono utilizzati in parti di altri algoritmi più complicati.
 
