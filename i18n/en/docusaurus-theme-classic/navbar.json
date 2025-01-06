@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "MontreCode",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Reference": {
+    "message": "Reference",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Materiale": {
+    "message": "Materiale",
+    "description": "Navbar item with label Materiale"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
