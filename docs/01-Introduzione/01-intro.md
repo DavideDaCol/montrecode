@@ -31,4 +31,4 @@ La seconda parte contiene le istruzioni vere e proprie, divise in:
     - istruzioni **condizionali** (if, if-else...)
     - **cicli** (for, while, do-while...)
 
-Queste istruzioni verranno affrontate nel dettaglio nella [prossima sezione](./istruzioni.md).
+Queste istruzioni verranno affrontate nel dettaglio nella [prossima sezione](./02-istruzioni.md).
